@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Funtion Add</title>
+</head>
+
+<body>
+
+<h2>this is alert massage</h2>
+<p id="a"></p>
+<script>
+	function lib(a,b,c,d)
+	{
+		return a+b*c/d;
+	}
+
+try 
+{
+
+var x=lib(1,7,3,5);
+document.getElementById('a').innerHTML=x;
+}
+catch(err)
+{
+document.getElementById('a').innerHTML=err.message;	
+}
+
+</script>
+</body>
+</html>

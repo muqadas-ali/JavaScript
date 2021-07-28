@@ -1,0 +1,23 @@
+<!Doctype html>
+<html>
+<head>
+<title>Try/Catch</title>
+</head>
+<body>
+<h2> This is alert message</h2>
+<p id="demo"></p>
+
+<script>
+
+try{
+addalert("Welcome guest");
+}
+catch(err)
+{
+document.getElementById("demo").innerHTML=err.message;
+}
+
+</script>
+
+</body>
+</html>
